@@ -1,0 +1,81 @@
+/* Copy Cat of https://eda.sw.siemens.com/en-US/ */
+
+.hero {
+    background-color: #000028;
+    color: white;
+    padding-bottom: 40px;
+}
+.navbar-brand {
+    font-weight: bolder;
+}
+nav {
+    border-bottom: 1px solid #333353;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.sign-in {
+    background-color: #000028;
+    border: none;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    position: absolute;
+    top: 67px;
+    left: 63px;
+    padding: 4px;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 63px;
+    padding: 4px;
+}
+.what {
+    font-weight: bolder;
+    padding: 0px 0px 20px;
+}
+.who {
+    font-weight: bolder;
+    font-size: 40px;
+    border-left: 5px solid #00EDD1;
+    padding: 0px 0px 0px 20px;
+}
+.why {
+    max-width: 550px;
+    padding: 20px 0px;
+}
+.btn-info {
+    background-color: #00EDD1;
+    border-radius: unset;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+.btn-info:hover {
+    background-color: #C4FFEE;
+    border-color: #C4FFEE;
+}
+.grey {
+    background-color: #EBEBEE;
+}
+
+.grey, .white {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 16px;
+}
+.grey .description, .grey .image, .white .description, .white .image {
+    flex: 0 1 auto;
+    padding: 50px;
+}
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+}
+

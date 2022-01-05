@@ -72,6 +72,12 @@ nav {
 .grey .description, .grey .image, .white .description, .white .image {
     flex: 0 1 auto;
     padding: 50px;
+    max-width: 50%;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
 }
 .title {
     font-weight: bold;
